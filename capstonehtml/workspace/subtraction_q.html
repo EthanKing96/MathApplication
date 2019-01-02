@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel ="stylesheet" type="text/css" href="css/home-css.css" />
+        <title>
+        ATC Math Tool
+        </title>
+    </head>
+    <body>
+        <header id="h"><a href ="index.html"><img id="logo" src="Images/atc_logo-312x122.png"></a><div id="page_title"><a href ="index.html">Home</a></div>
+        </header>
+        <div id="separator"></div>
+        <div id="open_message"><h2>Welcome to the ATC math tool!</h2>
+        <h2>You have 60 seconds to solve 24 subtraction questions</h2>
+        </div>
+        <div id="table">
+        <table>
+             <tr>
+                <td id = "timer">00</td>
+            </tr>
+           <tr>
+              <td class="counter" id="theCounter" style="font-size:50pt; font-family: helvetica;"></td>
+               <td class="var" id="var1" style="font-size:50pt; font-family: helvetica;"></td>
+               <td><img src="Images/subtraction@2x@2x.png" height="62pt"></td>
+               <td class ="var" id="var2" style="font-size:50pt; font-family: helvetica;"></td>
+               <td><img src="Images/equals@2x@2x.png" height="62pt"></td>
+               <td><input id="numb" size="2" style="border-radius: 5px; border-color: #0b556e; font-size: 50pt;"></td>
+           </tr>
+        </table>
+        </div>
+        <div class="quiz">
+        <button id="button1" onclick="newQuestion()">Enter</button>
+        </div>
+        <script src="js/subtraction_q.js"></script>
+    </body>
+</html>

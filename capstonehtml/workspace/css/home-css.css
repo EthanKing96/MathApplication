@@ -1,0 +1,218 @@
+body {
+    background-color: #f9f9f9;
+    font-family: helvetica, sans-serif;
+    text-align: center;
+}
+
+#tableResults {
+    display: inline-block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#table {
+    display: block;
+    vertical-align: middle;
+    padding: 5px;
+    transition: color .3s ease;
+    width: 100%;
+    text-align: -webkit-center;
+    
+ 
+    
+  
+}
+
+
+td{
+    text-align: -webkit-center;
+}
+
+input {
+    border-radius: 5px;
+    border-color: #0b556e;
+    font-size: 50pt;
+}
+
+header {
+    border-radius: 5px;
+    text-align: center;
+    background-color: #0b556e;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 20%;
+    
+}
+
+table.tableResults {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+} 
+
+#logo {
+    float: left;
+    position: relative;
+}
+
+#page_title {
+    float: right;
+    position: relative;
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bolder;
+   
+}
+
+#open_message {
+    background-color: #3e3d3d;
+    color: white;
+    font-family: helvetica, sans-serif;
+    width: 65%;
+    text-align: center;
+    padding: 2px;
+    display: inline-block;
+    border-radius: 5px !important;
+}
+
+button {
+    display: block !important;
+    text-align: center;
+    color: #ffffff;
+    background-color: #0b556e;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    transition-delay: all .2s ease-in-out;
+    transition-duration: .4s;
+    line-height: normal;
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+
+#button1  {
+    text-align: center;
+    color: #ffffff;
+    background-color: #0b556e;
+    margin-top: 10px;
+    width: 25%;
+    border-radius: 5px;
+    border: none;
+    transition-delay: all .2s ease-in-out;
+    transition-duration: .4s;
+    line-height: normal;
+    font-size: 20px;
+    padding:20px 20px;
+    
+  
+    display: inline-block;
+    cursor: pointer;
+}
+#button1:hover {
+    background-color: #3e3d3d;
+}
+
+
+.quiz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropbtn {
+    display: block;
+    color: #ffffff;
+    background-color: #0b556e;
+    padding-top: 20px;
+    padding-right: 56px;
+    padding-bottom: 20px;
+    padding-left: 56px;
+    border-radius: 5px;
+    border: none;
+    transition-delay: all .2s ease-in-out;
+    transition-duration: .4s;
+    line-height: normal;
+    font-size: 20px;
+    position: relative;
+    
+  
+    
+}
+
+
+#separator {
+   display: inline-block;
+   vertical-align: middle;
+   margin: 10px 0 10px 0;
+   padding: 2px;
+   background-color: #bfc0c1;
+   transition: color .3s ease;
+   width: 65%;
+}
+
+/* Dropdown Button */
+/*.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}*/
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block !important;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #3e3d3d;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block; 
+    background-color: #0791C1;
+    border-radius:5px;
+    width: 100%;
+    padding: 2px 0 2px 0;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e3d3d;}
+

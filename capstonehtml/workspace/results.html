@@ -1,0 +1,49 @@
+<html>
+    <head>
+       
+       
+        <link rel ="stylesheet" type="text/css" href="css/home-css.css" />
+       
+       
+        <title>
+        ATC Math Tool
+        </title>
+    </head>
+    <body>
+        
+        <script>
+            var localStorage;
+             window.onload = function() {
+             var derp = localStorage.getItem("storageName");
+            document.getElementById("tableResults").innerHTML = derp;
+     
+             };
+            
+        </script>
+        
+        <header id="h"><a href ="index.html"><img id="logo" src="Images/atc_logo-312x122.png"></a><div id="page_title"><a href ="index.html">Home</a></div>
+        </header>
+        <div id="separator"></div>
+        <div id="open_message"><h2>Results:</h2>
+        <h2>Select the home button to go back the home</h2>
+        </div >
+        <div >
+        <table  class = "tableResults" id="tableResults">
+           <!-- 6:00pm
+           
+            <tbody style="display: inline-block;">
+           
+            <th>Results:</th>
+          
+            </tbody>
+             -->
+         
+         </table>
+        </div>
+          
+        <a href="index.html" id = "button1">Home</a>
+       <!--
+       <script src="/js/addition_p.js"></script>
+       -->
+    </body>
+</html>
